@@ -2,4 +2,3 @@ payload:
   - '+.services.googleapis.cn'
   - '+.services.googleapis.com'
   - '+.xn--ngstr-lra8j.com'
-  - '+.hdsky.me'
