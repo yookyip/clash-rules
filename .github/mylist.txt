@@ -5,3 +5,4 @@ payload:
   - '+.vpsxb.net'
   - '+.missav.com'
   - '+.microsoftonline.com'
+  - '+.chdbits.co'
