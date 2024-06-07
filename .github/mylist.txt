@@ -6,3 +6,4 @@ payload:
   - '+.missav.com'
   - '+.microsoftonline.com'
   - '+.chdbits.co'
+  - '+.totheglory.im'
