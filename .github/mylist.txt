@@ -7,3 +7,4 @@ payload:
   - '+.microsoftonline.com'
   - '+.chdbits.co'
   - '+.totheglory.im'
+  - '+.reddit.com'
