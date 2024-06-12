@@ -8,3 +8,4 @@ payload:
   - '+.chdbits.co'
   - '+.totheglory.im'
   - '+.reddit.com'
+  - '+.nanodm.net'
