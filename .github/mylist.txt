@@ -11,3 +11,7 @@ payload:
   - '+.nanodm.net'
   - '+.docker.com'
   - '+.qnap.com'
+  - '+.themoviedb.org'
+  - '+.tmdb.org'
+  - '+.telegram.org'
+  - '+.opensubtitles.org'
