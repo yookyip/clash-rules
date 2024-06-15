@@ -10,3 +10,4 @@ payload:
   - '+.reddit.com'
   - '+.nanodm.net'
   - '+.docker.com'
+  - '+.qnap.com'
