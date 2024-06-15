@@ -9,3 +9,4 @@ payload:
   - '+.totheglory.im'
   - '+.reddit.com'
   - '+.nanodm.net'
+  - '+.docker.com'
