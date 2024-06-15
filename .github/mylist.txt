@@ -7,7 +7,6 @@ payload:
   - '+.microsoftonline.com'
   - '+.chdbits.co'
   - '+.totheglory.im'
-  - '+.reddit.com'
   - '+.nanodm.net'
   - '+.docker.com'
   - '+.qnap.com'
