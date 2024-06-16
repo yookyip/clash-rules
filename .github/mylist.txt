@@ -6,7 +6,6 @@ payload:
   - '+.missav.com'
   - '+.microsoftonline.com'
   - '+.chdbits.co'
-  - '+.totheglory.im'
   - '+.nanodm.net'
   - '+.docker.com'
   - '+.qnap.com'
