@@ -11,3 +11,4 @@ payload:
   - '+.qnap.com'
   - '+.tmdb.org'
   - '+.opensubtitles.org'
+  - '+.tailscale.com'
