@@ -12,3 +12,4 @@ payload:
   - '+.tmdb.org'
   - '+.opensubtitles.org'
   - '+.tailscale.com'
+  - '+.strava.com'
