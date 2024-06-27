@@ -13,3 +13,5 @@ payload:
   - '+.opensubtitles.org'
   - '+.tailscale.com'
   - '+.strava.com'
+  - 'www.speedtest.net'
+  - 'speed.cloudflare.com'
