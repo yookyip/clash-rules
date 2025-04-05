@@ -3,7 +3,7 @@ payload:
   - '+.services.googleapis.com'
   - '+.xn--ngstr-lra8j.com'
   - '+.vpsxb.net'
-  - '+.missav.com'
+  - '+.themoviedb.org'
   - '+.microsoftonline.com'
   - '+.chdbits.co'
   - '+.nanodm.net'
