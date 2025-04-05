@@ -15,3 +15,4 @@ payload:
   - '+.strava.com'
   - 'www.speedtest.net'
   - 'speed.cloudflare.com'
+  - 'api.themoviedb.org'
