@@ -16,4 +16,5 @@ payload:
   - '+.missav.ws'
   - '+.speedtest.net'
   - '+.cloudflare.com'
+  - '+.surrit.com'
   - 'api.themoviedb.org'
