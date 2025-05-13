@@ -17,4 +17,6 @@ payload:
   - '+.speedtest.net'
   - '+.cloudflare.com'
   - '+.surrit.com'
+  - '+.springsunday.net'
+  - 'pt.keepfrds.com'
   - 'api.themoviedb.org'
