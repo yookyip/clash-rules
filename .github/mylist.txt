@@ -18,5 +18,6 @@ payload:
   - '+.cloudflare.com'
   - '+.surrit.com'
   - '+.springsunday.net'
+  - '+.unraid.net'
   - 'pt.keepfrds.com'
   - 'api.themoviedb.org'
