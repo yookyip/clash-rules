@@ -112,7 +112,7 @@ dns:
     - api.bilibili.com
     - a.w.bilicdn1.com
 proxies:
-  - {name: 当前流量：46.03G / 500.00G, server: 664fe71.qeuhco.xyz, port: 18300, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 当前流量：50.65G / 500.00G, server: 664fe71.qeuhco.xyz, port: 18300, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
   - {name: 到期时间：2026-05-05, server: 664fe71.qeuhco.xyz, port: 18300, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
   - {name: 🇭🇰 香港 01, server: 664fe71.qeuhco.xyz, port: 18300, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
   - {name: 🇭🇰 香港 02, server: 664fe71.qeuhco.xyz, port: 18305, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
@@ -176,7 +176,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     type: select
     proxies:
-      - 当前流量：46.03G / 500.00G
+      - 当前流量：50.65G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -241,7 +241,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：46.03G / 500.00G
+      - 当前流量：50.65G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -306,7 +306,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：46.03G / 500.00G
+      - 当前流量：50.65G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -371,7 +371,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：46.03G / 500.00G
+      - 当前流量：50.65G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -436,7 +436,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：46.03G / 500.00G
+      - 当前流量：50.65G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -501,7 +501,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：46.03G / 500.00G
+      - 当前流量：50.65G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -566,7 +566,7 @@ proxy-groups:
     proxies:
       - 🎯Direct
       - Proxies
-      - 当前流量：46.03G / 500.00G
+      - 当前流量：50.65G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -631,7 +631,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：46.03G / 500.00G
+      - 当前流量：50.65G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -696,7 +696,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：46.03G / 500.00G
+      - 当前流量：50.65G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -761,7 +761,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：46.03G / 500.00G
+      - 当前流量：50.65G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -826,7 +826,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：46.03G / 500.00G
+      - 当前流量：50.65G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -891,7 +891,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：46.03G / 500.00G
+      - 当前流量：50.65G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -956,7 +956,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：46.03G / 500.00G
+      - 当前流量：50.65G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -1021,7 +1021,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：46.03G / 500.00G
+      - 当前流量：50.65G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -1086,7 +1086,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：46.03G / 500.00G
+      - 当前流量：50.65G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -1151,7 +1151,7 @@ proxy-groups:
     proxies:
       - 🎯Direct
       - Proxies
-      - 当前流量：46.03G / 500.00G
+      - 当前流量：50.65G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -1216,7 +1216,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：46.03G / 500.00G
+      - 当前流量：50.65G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -1281,7 +1281,7 @@ proxy-groups:
     proxies:
       - 🎯Direct
       - Proxies
-      - 当前流量：46.03G / 500.00G
+      - 当前流量：50.65G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -1346,7 +1346,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：46.03G / 500.00G
+      - 当前流量：50.65G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -1411,7 +1411,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：46.03G / 500.00G
+      - 当前流量：50.65G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -1483,7 +1483,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：46.03G / 500.00G
+      - 当前流量：50.65G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -2049,6 +2049,7 @@ rules:
   - PROCESS-NAME,daytradr64.exe,Crypto
   - PROCESS-NAME,bookmap.exe,Crypto
   - PROCESS-NAME,tws.exe,Crypto
+  - PROCESS-NAME,Rithmic Trader Pro.exe,Crypto
   - DOMAIN-SUFFIX,ledger.com,Crypto
   - DOMAIN-SUFFIX,perplexity.ai,AI
   - DOMAIN-SUFFIX,perplexity.ai,AI
