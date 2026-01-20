@@ -7,8 +7,8 @@ external-controller: :9090
 unified-delay: true
 sniffer:
   sniff:
-    TLS: {ports: [1-65535], override-destination: true}
-    HTTP: {ports: [1-65535], override-destination: true}
+    TLS: {ports: [443], override-destination: true}
+    HTTP: {ports: [443], override-destination: true}
   enable: true
   skip-domain:
     - Mijia Cloud
@@ -24,9 +24,8 @@ dns:
   default-nameserver:
     - 119.29.29.29
     - 223.5.5.5
-    - 223.6.6.6
-    - 8.8.4.4
     - 8.8.8.8
+    - https://223.5.5.5/dns-query
   nameserver:
     - https://durable0762.com:44443/dns-query
     - https://delirium9599.com:44443/dns-query
@@ -112,71 +111,71 @@ dns:
     - api.bilibili.com
     - a.w.bilicdn1.com
 proxies:
-  - {name: 当前流量：50.65G / 500.00G, server: 664fe71.qeuhco.xyz, port: 18300, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 到期时间：2026-05-05, server: 664fe71.qeuhco.xyz, port: 18300, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇭🇰 香港 01, server: 664fe71.qeuhco.xyz, port: 18300, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇭🇰 香港 02, server: 664fe71.qeuhco.xyz, port: 18305, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇭🇰 香港 03, server: 664fe71.qeuhco.xyz, port: 18310, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇭🇰 香港 04, server: 664fe71.qeuhco.xyz, port: 18315, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇭🇰 香港 05, server: 664fe71.qeuhco.xyz, port: 18320, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇭🇰 香港 06, server: 664fe71.qeuhco.xyz, port: 18325, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇭🇰 香港 07, server: 664fe71.qeuhco.xyz, port: 18330, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇭🇰 香港 08, server: 664fe71.qeuhco.xyz, port: 18335, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇭🇰 香港 09, server: 664fe71.qeuhco.xyz, port: 18340, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇭🇰 香港 10, server: 664fe71.qeuhco.xyz, port: 18345, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇭🇰 香港 11, server: 664fe71.qeuhco.xyz, port: 18350, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇭🇰 香港 12, server: 664fe71.qeuhco.xyz, port: 18400, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇭🇰 香港 13, server: 664fe71.qeuhco.xyz, port: 18405, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇭🇰 香港 14, server: 664fe71.qeuhco.xyz, port: 18410, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇭🇰 香港 15, server: 664fe71.qeuhco.xyz, port: 18415, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇭🇰 香港 16, server: 664fe71.qeuhco.xyz, port: 18420, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇭🇰 香港 17, server: 664fe71.qeuhco.xyz, port: 18425, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇭🇰 香港 18, server: 664fe71.qeuhco.xyz, port: 18430, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇭🇰 香港 19, server: 664fe71.qeuhco.xyz, port: 18435, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇭🇰 香港 20, server: 664fe71.qeuhco.xyz, port: 18440, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇭🇰 香港 21, server: 664fe71.qeuhco.xyz, port: 18445, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇺🇸 美国 01, server: gsdk87f.aqmixt.xyz, port: 18100, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇺🇸 美国 02, server: gsdk87f.aqmixt.xyz, port: 18105, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇺🇸 美国 03, server: gsdk87f.aqmixt.xyz, port: 18110, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇺🇸 美国 04, server: gsdk87f.aqmixt.xyz, port: 18115, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇺🇸 美国 05, server: gsdk87f.aqmixt.xyz, port: 18120, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇺🇸 美国 06, server: gsdk87f.aqmixt.xyz, port: 18125, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇺🇸 美国 07, server: gsdk87f.aqmixt.xyz, port: 18130, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇺🇸 美国 08, server: gsdk87f.aqmixt.xyz, port: 18135, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇺🇸 美国 09, server: gsdk87f.aqmixt.xyz, port: 18140, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇺🇸 美国 10, server: gsdk87f.aqmixt.xyz, port: 18145, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇺🇸 美国 11, server: gsdk87f.aqmixt.xyz, port: 18150, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇺🇸 美国 12, server: gsdk87f.aqmixt.xyz, port: 18155, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇺🇸 美国 13, server: gsdk87f.aqmixt.xyz, port: 18160, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇯🇵 日本 01, server: gsdk87f.aqmixt.xyz, port: 18002, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇯🇵 日本 02, server: gsdk87f.aqmixt.xyz, port: 18005, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇯🇵 日本 03, server: gsdk87f.aqmixt.xyz, port: 18010, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇯🇵 日本 04, server: gsdk87f.aqmixt.xyz, port: 18015, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇯🇵 日本 05, server: gsdk87f.aqmixt.xyz, port: 18020, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇯🇵 日本 06, server: gsdk87f.aqmixt.xyz, port: 18025, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇯🇵 日本 07, server: gsdk87f.aqmixt.xyz, port: 18030, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇯🇵 日本 08, server: gsdk87f.aqmixt.xyz, port: 18035, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇨🇳 台湾 01, server: 664fe71.qeuhco.xyz, port: 18355, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇨🇳 台湾 02, server: 664fe71.qeuhco.xyz, port: 18360, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇨🇳 台湾 03, server: 664fe71.qeuhco.xyz, port: 18365, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇨🇳 台湾 04, server: 664fe71.qeuhco.xyz, port: 18370, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇨🇳 台湾 05, server: 664fe71.qeuhco.xyz, port: 18375, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇨🇳 台湾 06, server: 664fe71.qeuhco.xyz, port: 18356, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇨🇳 台湾 07, server: 664fe71.qeuhco.xyz, port: 18361, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇨🇳 台湾 08, server: 664fe71.qeuhco.xyz, port: 18366, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇨🇳 台湾 09, server: 664fe71.qeuhco.xyz, port: 18371, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇨🇳 台湾 10, server: 664fe71.qeuhco.xyz, port: 18376, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇸🇬 新加坡 01, server: 664fe71.qeuhco.xyz, port: 18380, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇸🇬 新加坡 02, server: 664fe71.qeuhco.xyz, port: 18385, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇸🇬 新加坡 03, server: 664fe71.qeuhco.xyz, port: 18390, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
-  - {name: 🇸🇬 新加坡 04, server: 664fe71.qeuhco.xyz, port: 18395, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 当前流量：100.49G / 500.00G, server: 664fe71.irwtklne.sbs, port: 18300, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 到期时间：2026-05-05, server: 664fe71.irwtklne.sbs, port: 18300, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇭🇰 香港 01, server: 664fe71.irwtklne.sbs, port: 18300, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇭🇰 香港 02, server: 664fe71.irwtklne.sbs, port: 18305, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇭🇰 香港 03, server: 664fe71.irwtklne.sbs, port: 18310, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇭🇰 香港 04, server: 664fe71.irwtklne.sbs, port: 18315, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇭🇰 香港 05, server: 664fe71.irwtklne.sbs, port: 18320, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇭🇰 香港 06, server: 664fe71.irwtklne.sbs, port: 18325, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇭🇰 香港 07, server: 664fe71.irwtklne.sbs, port: 18330, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇭🇰 香港 08, server: 664fe71.irwtklne.sbs, port: 18335, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇭🇰 香港 09, server: 664fe71.irwtklne.sbs, port: 18340, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇭🇰 香港 10, server: 664fe71.irwtklne.sbs, port: 18345, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇭🇰 香港 11, server: 664fe71.irwtklne.sbs, port: 18350, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇭🇰 香港 12, server: 664fe71.irwtklne.sbs, port: 18400, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇭🇰 香港 13, server: 664fe71.irwtklne.sbs, port: 18405, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇭🇰 香港 14, server: 664fe71.irwtklne.sbs, port: 18410, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇭🇰 香港 15, server: 664fe71.irwtklne.sbs, port: 18415, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇭🇰 香港 16, server: 664fe71.irwtklne.sbs, port: 18420, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇭🇰 香港 17, server: 664fe71.irwtklne.sbs, port: 18425, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇭🇰 香港 18, server: 664fe71.irwtklne.sbs, port: 18430, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇭🇰 香港 19, server: 664fe71.irwtklne.sbs, port: 18435, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇭🇰 香港 20, server: 664fe71.irwtklne.sbs, port: 18440, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇭🇰 香港 21, server: 664fe71.irwtklne.sbs, port: 18445, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇺🇸 美国 01, server: hdel96f.jgalxonu.sbs, port: 18100, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇺🇸 美国 02, server: hdel96f.jgalxonu.sbs, port: 18105, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇺🇸 美国 03, server: hdel96f.jgalxonu.sbs, port: 18110, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇺🇸 美国 04, server: hdel96f.jgalxonu.sbs, port: 18115, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇺🇸 美国 05, server: hdel96f.jgalxonu.sbs, port: 18120, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇺🇸 美国 06, server: hdel96f.jgalxonu.sbs, port: 18125, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇺🇸 美国 07, server: hdel96f.jgalxonu.sbs, port: 18130, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇺🇸 美国 08, server: hdel96f.jgalxonu.sbs, port: 18135, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇺🇸 美国 09, server: hdel96f.jgalxonu.sbs, port: 18140, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇺🇸 美国 10, server: hdel96f.jgalxonu.sbs, port: 18145, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇺🇸 美国 11, server: hdel96f.jgalxonu.sbs, port: 18150, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇺🇸 美国 12, server: hdel96f.jgalxonu.sbs, port: 18155, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇺🇸 美国 13, server: hdel96f.jgalxonu.sbs, port: 18160, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇯🇵 日本 01, server: hdel96f.jgalxonu.sbs, port: 18002, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇯🇵 日本 02, server: hdel96f.jgalxonu.sbs, port: 18005, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇯🇵 日本 03, server: hdel96f.jgalxonu.sbs, port: 18010, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇯🇵 日本 04, server: hdel96f.jgalxonu.sbs, port: 18015, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇯🇵 日本 05, server: hdel96f.jgalxonu.sbs, port: 18020, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇯🇵 日本 06, server: hdel96f.jgalxonu.sbs, port: 18025, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇯🇵 日本 07, server: hdel96f.jgalxonu.sbs, port: 18030, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇯🇵 日本 08, server: hdel96f.jgalxonu.sbs, port: 18035, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇨🇳 台湾 01, server: 664fe71.irwtklne.sbs, port: 18355, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇨🇳 台湾 02, server: 664fe71.irwtklne.sbs, port: 18360, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇨🇳 台湾 03, server: 664fe71.irwtklne.sbs, port: 18365, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇨🇳 台湾 04, server: 664fe71.irwtklne.sbs, port: 18370, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇨🇳 台湾 05, server: 664fe71.irwtklne.sbs, port: 18375, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇨🇳 台湾 06, server: 664fe71.irwtklne.sbs, port: 18356, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇨🇳 台湾 07, server: 664fe71.irwtklne.sbs, port: 18361, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇨🇳 台湾 08, server: 664fe71.irwtklne.sbs, port: 18366, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇨🇳 台湾 09, server: 664fe71.irwtklne.sbs, port: 18371, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇨🇳 台湾 10, server: 664fe71.irwtklne.sbs, port: 18376, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇸🇬 新加坡 01, server: 664fe71.irwtklne.sbs, port: 18380, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇸🇬 新加坡 02, server: 664fe71.irwtklne.sbs, port: 18385, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇸🇬 新加坡 03, server: 664fe71.irwtklne.sbs, port: 18390, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
+  - {name: 🇸🇬 新加坡 04, server: 664fe71.irwtklne.sbs, port: 18395, type: ss, cipher: aes-128-gcm, password: 0266f603bda98606, plugin: obfs, plugin-opts: {mode: http, host: IdQc681f8o.microsoft.com}, udp: true, tfo: false}
 proxy-groups:
   - name: Proxies
     icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Proxy.png
     url: http://www.gstatic.com/generate_204
     type: select
     proxies:
-      - 当前流量：50.65G / 500.00G
+      - 当前流量：100.49G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -241,7 +240,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：50.65G / 500.00G
+      - 当前流量：100.49G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -306,7 +305,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：50.65G / 500.00G
+      - 当前流量：100.49G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -371,7 +370,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：50.65G / 500.00G
+      - 当前流量：100.49G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -436,7 +435,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：50.65G / 500.00G
+      - 当前流量：100.49G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -501,7 +500,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：50.65G / 500.00G
+      - 当前流量：100.49G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -566,7 +565,7 @@ proxy-groups:
     proxies:
       - 🎯Direct
       - Proxies
-      - 当前流量：50.65G / 500.00G
+      - 当前流量：100.49G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -631,7 +630,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：50.65G / 500.00G
+      - 当前流量：100.49G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -696,7 +695,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：50.65G / 500.00G
+      - 当前流量：100.49G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -761,7 +760,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：50.65G / 500.00G
+      - 当前流量：100.49G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -826,7 +825,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：50.65G / 500.00G
+      - 当前流量：100.49G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -891,7 +890,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：50.65G / 500.00G
+      - 当前流量：100.49G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -956,7 +955,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：50.65G / 500.00G
+      - 当前流量：100.49G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -1021,7 +1020,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：50.65G / 500.00G
+      - 当前流量：100.49G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -1086,7 +1085,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：50.65G / 500.00G
+      - 当前流量：100.49G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -1151,7 +1150,7 @@ proxy-groups:
     proxies:
       - 🎯Direct
       - Proxies
-      - 当前流量：50.65G / 500.00G
+      - 当前流量：100.49G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -1216,7 +1215,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：50.65G / 500.00G
+      - 当前流量：100.49G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -1281,7 +1280,7 @@ proxy-groups:
     proxies:
       - 🎯Direct
       - Proxies
-      - 当前流量：50.65G / 500.00G
+      - 当前流量：100.49G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -1346,7 +1345,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：50.65G / 500.00G
+      - 当前流量：100.49G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -1411,7 +1410,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：50.65G / 500.00G
+      - 当前流量：100.49G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -1483,7 +1482,7 @@ proxy-groups:
     proxies:
       - Proxies
       - 🎯Direct
-      - 当前流量：50.65G / 500.00G
+      - 当前流量：100.49G / 500.00G
       - 到期时间：2026-05-05
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
