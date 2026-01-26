@@ -1,2 +1,3 @@
 payload:
   - '+.best.28.al'
+  - '+.test.startspoint.com'
