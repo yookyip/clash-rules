@@ -1,2 +1,1 @@
-payload:
-  - '+.best.28.al'
+
