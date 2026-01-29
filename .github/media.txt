@@ -1,3 +1,4 @@
 payload:
   - '+.best.28.al'
   - '+.test.startspoint.com'
+  - '+.server3.cn2gias.uk'
