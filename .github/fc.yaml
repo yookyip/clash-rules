@@ -36,7 +36,7 @@ dns:
     - tls://120.53.53.53
     - tls://1.12.12.12
 proxies:
-  - {name: "Traffic: 0 GB | 400 GB", server: gzcloud.233netcloud.com, port: 10013, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 9012912e95.m.ctrip.com}, udp: true}
+  - {name: "Traffic: 114.32 GB | 400 GB", server: gzcloud.233netcloud.com, port: 10013, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 9012912e95.m.ctrip.com}, udp: true}
   - {name: "Expire: 2026-05-17", server: gzcloud.233netcloud.com, port: 10013, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 9012912e95.m.ctrip.com}, udp: true}
   - {name: 🇭🇰 香港实验性 IEPL 专线 1, server: gzcloud.233netcloud.com, port: 10013, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 9012912e95.m.ctrip.com}, udp: true}
   - {name: 🇯🇵 日本实验性 IEPL 专线 1, server: shcloud.233netcloud.com, port: 10023, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 9012912e95.m.ctrip.com}, udp: true}
@@ -135,7 +135,7 @@ proxy-groups:
       - SG
       - TW
       - US
-      - "Traffic: 0 GB | 400 GB"
+      - "Traffic: 114.32 GB | 400 GB"
       - "Expire: 2026-05-17"
       - 🇭🇰 香港实验性 IEPL 专线 1
       - 🇯🇵 日本实验性 IEPL 专线 1
