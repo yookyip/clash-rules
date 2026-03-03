@@ -16,7 +16,7 @@ keep-alive-idle: 600
 keep-alive-interval: 15
 disable-keep-alive: false
 sniffer:
-    enable: true
+    enable: false
     sniff: { HTTP: { ports: [], override-destination: true }, TLS: { ports: [443, 8443] }, QUIC: { ports: [443, 8443] } }
     force-domain: [+.v2ex.com]
     skip-domain: [+.baidu.com, +.bilibili.com]
@@ -45,52 +45,52 @@ dns:
     fallback: ['https://dns.alidns.com/dns-query', 'https://doh.pub/dns-query']
     fallback-filter: { geoip: true, geoip-code: CN, geosite: [gfw], ipcidr: [240.0.0.0/4] }
 proxies:
-    - { name: '🇭🇰 HK01 0.20x', type: trojan, server: 2451.hk.zm5t9.nod3.org, port: 22101, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇭🇰 HK02', type: trojan, server: 2451.hk.zm5t9.nod3.org, port: 22105, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇭🇰 HK03', type: trojan, server: 2451.hk.zm5t9.nod3.org, port: 22107, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇭🇰 HK04', type: trojan, server: 2451.hk.zm5t9.nod3.org, port: 22109, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇭🇰 HK05', type: trojan, server: 2451.hk.zm5t9.nod3.org, port: 22110, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇭🇰 HK06', type: trojan, server: 2451.hk.zm5t9.nod3.org, port: 22112, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇭🇰 HK07', type: trojan, server: 2451.hk.zm5t9.nod3.org, port: 22114, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇭🇰 HK08', type: trojan, server: 2451.hk.zm5t9.nod3.org, port: 22116, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇭🇰 HK09 2.00x', type: trojan, server: 2451.line.zm5t9.nod3.org, port: 22118, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇭🇰 HK10 2.00x', type: trojan, server: 2451.line.zm5t9.nod3.org, port: 22120, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇭🇰 HK11 2.00x', type: trojan, server: 2451.line.zm5t9.nod3.org, port: 22122, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇭🇰 HK12 2.00x', type: trojan, server: 2451.line.zm5t9.nod3.org, port: 22124, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇨🇳 TW01 0.20x', type: trojan, server: 2451.tw.rp8m1.nod3.org, port: 23101, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇨🇳 TW02', type: trojan, server: 2451.tw.rp8m1.nod3.org, port: 23104, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇨🇳 TW03', type: trojan, server: 2451.tw.rp8m1.nod3.org, port: 23105, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇨🇳 TW04', type: trojan, server: 2451.tw.rp8m1.nod3.org, port: 23107, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇨🇳 TW05 2.00x', type: trojan, server: 2451.line.zm5t9.nod3.org, port: 23110, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇨🇳 TW06 2.00x', type: trojan, server: 2451.line.zm5t9.nod3.org, port: 23112, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇸🇬 SG01 0.20x', type: trojan, server: 2451.sg.jc52.nod3.org, port: 24101, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇸🇬 SG02', type: trojan, server: 2451.sg.jc52.nod3.org, port: 24104, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇸🇬 SG03', type: trojan, server: 2451.sg.jc52.nod3.org, port: 24105, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇸🇬 SG04', type: trojan, server: 2451.sg.jc52.nod3.org, port: 24107, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇸🇬 SG05 2.00x', type: trojan, server: 2451.line.zm5t9.nod3.org, port: 24110, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇸🇬 SG06 2.00x', type: trojan, server: 2451.line.zm5t9.nod3.org, port: 24112, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇯🇵 JP01 0.20x', type: trojan, server: 2451.jp.ry3x2.nod3.org, port: 25201, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇯🇵 JP02', type: trojan, server: 2451.jp.ry3x2.nod3.org, port: 25204, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇯🇵 JP03', type: trojan, server: 2451.jp.ry3x2.nod3.org, port: 25205, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇯🇵 JP04', type: trojan, server: 2451.jp.ry3x2.nod3.org, port: 25207, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇯🇵 JP05', type: trojan, server: 2451.jp.ry3x2.nod3.org, port: 25209, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇯🇵 JP06', type: trojan, server: 2451.jp.ry3x2.nod3.org, port: 25211, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇺🇸 US01 0.20x', type: trojan, server: 2451.us.kn84t.nod3.org, port: 25301, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇺🇸 US02', type: trojan, server: 2451.us.kn84t.nod3.org, port: 25304, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇺🇸 US03', type: trojan, server: 2451.us.kn84t.nod3.org, port: 25305, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇺🇸 US04', type: trojan, server: 2451.us.kn84t.nod3.org, port: 25307, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇺🇸 US05', type: trojan, server: 2451.us.kn84t.nod3.org, port: 25309, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇺🇸 US06', type: trojan, server: 2451.us.kn84t.nod3.org, port: 25311, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇰🇷 KR', type: trojan, server: 2451.ot.hz3q8.nod3.org, port: 25401, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇻🇳 VN', type: trojan, server: 2451.ot.hz3q8.nod3.org, port: 25501, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇦🇪 AE', type: trojan, server: 2451.ot.hz3q8.nod3.org, port: 25503, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇲🇾 Malaysia 0.20x', type: trojan, server: 2451.ot.hz3q8.nod3.org, port: 25505, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇬🇧 UK', type: trojan, server: 2451.ot.hz3q8.nod3.org, port: 25507, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇩🇪 DE01 0.20x', type: trojan, server: 2451.ot.hz3q8.nod3.org, port: 25509, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇹🇷 TR 0.20x', type: trojan, server: 2451.ot.hz3q8.nod3.org, port: 25511, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇳🇬 Nigeria 0.20x', type: trojan, server: 2451.ot.hz3q8.nod3.org, port: 25115, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇺🇦 Ukraine 0.20x', type: trojan, server: 2451.ot.hz3q8.nod3.org, port: 25117, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
-    - { name: '🇵🇰 Pakistan 0.20x', type: trojan, server: 2451.ot.hz3q8.nod3.org, port: 26118, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: cas.baidu.com, skip-cert-verify: true }
+    - { name: '🇭🇰 HK01 0.20x', type: trojan, server: 2451.hk.zm5t9.nod3.org, port: 22101, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇭🇰 HK02', type: trojan, server: 2451.hk.zm5t9.nod3.org, port: 22105, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇭🇰 HK03', type: trojan, server: 2451.hk.zm5t9.nod3.org, port: 22107, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇭🇰 HK04', type: trojan, server: 2451.hk.zm5t9.nod3.org, port: 22109, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇭🇰 HK05', type: trojan, server: 2451.hk.zm5t9.nod3.org, port: 22110, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇭🇰 HK06', type: trojan, server: 2451.hk.zm5t9.nod3.org, port: 22112, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇭🇰 HK07', type: trojan, server: 2451.hk.zm5t9.nod3.org, port: 22114, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇭🇰 HK08', type: trojan, server: 2451.hk.zm5t9.nod3.org, port: 22116, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇭🇰 HK09 2.00x', type: trojan, server: 2451.line.zm5t9.nod3.org, port: 22118, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇭🇰 HK10 2.00x', type: trojan, server: 2451.line.zm5t9.nod3.org, port: 22120, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇭🇰 HK11 2.00x', type: trojan, server: 2451.line.zm5t9.nod3.org, port: 22122, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇭🇰 HK12 2.00x', type: trojan, server: 2451.line.zm5t9.nod3.org, port: 22124, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇨🇳 TW01 0.20x', type: trojan, server: 2451.tw.rp8m1.nod3.org, port: 23101, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇨🇳 TW02', type: trojan, server: 2451.tw.rp8m1.nod3.org, port: 23104, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇨🇳 TW03', type: trojan, server: 2451.tw.rp8m1.nod3.org, port: 23105, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇨🇳 TW04', type: trojan, server: 2451.tw.rp8m1.nod3.org, port: 23107, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇨🇳 TW05 2.00x', type: trojan, server: 2451.line.zm5t9.nod3.org, port: 23110, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇨🇳 TW06 2.00x', type: trojan, server: 2451.line.zm5t9.nod3.org, port: 23112, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇸🇬 SG01 0.20x', type: trojan, server: 2451.sg.jc52.nod3.org, port: 24101, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇸🇬 SG02', type: trojan, server: 2451.sg.jc52.nod3.org, port: 24104, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇸🇬 SG03', type: trojan, server: 2451.sg.jc52.nod3.org, port: 24105, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇸🇬 SG04', type: trojan, server: 2451.sg.jc52.nod3.org, port: 24107, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇸🇬 SG05 2.00x', type: trojan, server: 2451.line.zm5t9.nod3.org, port: 24110, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇸🇬 SG06 2.00x', type: trojan, server: 2451.line.zm5t9.nod3.org, port: 24112, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇯🇵 JP01 0.20x', type: trojan, server: 2451.jp.ry3x2.nod3.org, port: 25201, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇯🇵 JP02', type: trojan, server: 2451.jp.ry3x2.nod3.org, port: 25204, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇯🇵 JP03', type: trojan, server: 2451.jp.ry3x2.nod3.org, port: 25205, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇯🇵 JP04', type: trojan, server: 2451.jp.ry3x2.nod3.org, port: 25207, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇯🇵 JP05', type: trojan, server: 2451.jp.ry3x2.nod3.org, port: 25209, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇯🇵 JP06', type: trojan, server: 2451.jp.ry3x2.nod3.org, port: 25211, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇺🇸 US01 0.20x', type: trojan, server: 2451.us.kn84t.nod3.org, port: 25301, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇺🇸 US02', type: trojan, server: 2451.us.kn84t.nod3.org, port: 25304, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇺🇸 US03', type: trojan, server: 2451.us.kn84t.nod3.org, port: 25305, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇺🇸 US04', type: trojan, server: 2451.us.kn84t.nod3.org, port: 25307, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇺🇸 US05', type: trojan, server: 2451.us.kn84t.nod3.org, port: 25309, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇺🇸 US06', type: trojan, server: 2451.us.kn84t.nod3.org, port: 25311, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇰🇷 KR', type: trojan, server: 2451.ot.hz3q8.nod3.org, port: 25401, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇻🇳 VN', type: trojan, server: 2451.ot.hz3q8.nod3.org, port: 25501, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇦🇪 AE', type: trojan, server: 2451.ot.hz3q8.nod3.org, port: 25503, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇲🇾 Malaysia 0.20x', type: trojan, server: 2451.ot.hz3q8.nod3.org, port: 25505, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇬🇧 UK', type: trojan, server: 2451.ot.hz3q8.nod3.org, port: 25507, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇩🇪 DE01 0.20x', type: trojan, server: 2451.ot.hz3q8.nod3.org, port: 25509, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇹🇷 TR 0.20x', type: trojan, server: 2451.ot.hz3q8.nod3.org, port: 25511, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇳🇬 Nigeria 0.20x', type: trojan, server: 2451.ot.hz3q8.nod3.org, port: 25115, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇺🇦 Ukraine 0.20x', type: trojan, server: 2451.ot.hz3q8.nod3.org, port: 25117, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
+    - { name: '🇵🇰 Pakistan 0.20x', type: trojan, server: 2451.ot.hz3q8.nod3.org, port: 26118, password: e2f589df-03f7-4063-b7cc-a0145e9eb5fd, udp: true, sni: q2cx.tencent.com, skip-cert-verify: true }
 proxy-groups:
     - { name: 守候网络, type: select, proxies: ['🇭🇰 HK01 0.20x', '🇭🇰 HK02', '🇭🇰 HK03', '🇭🇰 HK04', '🇭🇰 HK05', '🇭🇰 HK06', '🇭🇰 HK07', '🇭🇰 HK08', '🇭🇰 HK09 2.00x', '🇭🇰 HK10 2.00x', '🇭🇰 HK11 2.00x', '🇭🇰 HK12 2.00x', '🇨🇳 TW01 0.20x', '🇨🇳 TW02', '🇨🇳 TW03', '🇨🇳 TW04', '🇨🇳 TW05 2.00x', '🇨🇳 TW06 2.00x', '🇸🇬 SG01 0.20x', '🇸🇬 SG02', '🇸🇬 SG03', '🇸🇬 SG04', '🇸🇬 SG05 2.00x', '🇸🇬 SG06 2.00x', '🇯🇵 JP01 0.20x', '🇯🇵 JP02', '🇯🇵 JP03', '🇯🇵 JP04', '🇯🇵 JP05', '🇯🇵 JP06', '🇺🇸 US01 0.20x', '🇺🇸 US02', '🇺🇸 US03', '🇺🇸 US04', '🇺🇸 US05', '🇺🇸 US06', '🇰🇷 KR', '🇻🇳 VN', '🇦🇪 AE', '🇲🇾 Malaysia 0.20x', '🇬🇧 UK', '🇩🇪 DE01 0.20x', '🇹🇷 TR 0.20x', '🇳🇬 Nigeria 0.20x', '🇺🇦 Ukraine 0.20x', '🇵🇰 Pakistan 0.20x'] }
     - { name: '📺 Emby影院', type: select, proxies: [守候网络, '🐟 漏网之鱼', DIRECT, '🇭🇰 HK01 0.20x', '🇭🇰 HK02', '🇭🇰 HK03', '🇭🇰 HK04', '🇭🇰 HK05', '🇭🇰 HK06', '🇭🇰 HK07', '🇭🇰 HK08', '🇭🇰 HK09 2.00x', '🇭🇰 HK10 2.00x', '🇭🇰 HK11 2.00x', '🇭🇰 HK12 2.00x', '🇨🇳 TW01 0.20x', '🇨🇳 TW02', '🇨🇳 TW03', '🇨🇳 TW04', '🇨🇳 TW05 2.00x', '🇨🇳 TW06 2.00x', '🇸🇬 SG01 0.20x', '🇸🇬 SG02', '🇸🇬 SG03', '🇸🇬 SG04', '🇸🇬 SG05 2.00x', '🇸🇬 SG06 2.00x', '🇯🇵 JP01 0.20x', '🇯🇵 JP02', '🇯🇵 JP03', '🇯🇵 JP04', '🇯🇵 JP05', '🇯🇵 JP06', '🇺🇸 US01 0.20x', '🇺🇸 US02', '🇺🇸 US03', '🇺🇸 US04', '🇺🇸 US05', '🇺🇸 US06', '🇰🇷 KR', '🇻🇳 VN', '🇦🇪 AE', '🇲🇾 Malaysia 0.20x', '🇬🇧 UK', '🇩🇪 DE01 0.20x', '🇹🇷 TR 0.20x', '🇳🇬 Nigeria 0.20x', '🇺🇦 Ukraine 0.20x', '🇵🇰 Pakistan 0.20x'] }
